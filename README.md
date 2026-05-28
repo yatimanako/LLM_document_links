@@ -32,6 +32,12 @@ Each file includes:
 ### **Prompt Engineering**
 Guides and best practices for designing effective prompts across different LLMs.
 
+### **Context Engineering**
+Guides and best practices for various LLMs.
+
+### **Harness Engineering**
+Guides and best practices for smart AI Agent development.
+
 ### **API Documentation**
 Official references for Gemini, OpenAI, Claude, and other model APIs.
 
@@ -81,14 +87,6 @@ Resources for RAG evaluation, LLM benchmarks, and performance assessment.
 - Use this repo as a **study companion** for AI and cloud certifications  
 - Track learning progress using GitHub Issues or Projects  
 - Keep the structure simple and scalable as your knowledge grows  
-
----
-
-## 📝 Update Log
-
-- **2024‑xx‑xx** — Repository created  
-- **2024‑xx‑xx** — Added folder structure and starter templates  
-- **2024‑xx‑xx** — Added initial documentation links  
 
 ---
 
