@@ -15,4 +15,39 @@ This document introduces basic concepts, strategies, and best practices to get y
 
 ## 📚 Notes
 - Best Practices
-  - t.b.d.
+  - Using tags or Markdown helps the model distinguish between instructions, context, and tasks.
+    - Example (XML)  
+    ```
+    <role>
+      You are a helpful assistant.
+    </role>
+
+    <constraints>
+      1. Be objective.
+      2. Cite sources.
+    </constraints>
+
+    <context>
+      [Insert User Input Here - The model knows this is data, not instructions]
+    </context>
+
+    <task>
+      [Insert the specific user request here]
+    </task>
+    ```
+
+    - Example (Markdown)
+    ```
+    # Identity
+    You are a senior solution architect.
+
+    # Constraints
+    - No external libraries allowed.
+    - Python 3.11+ syntax only.
+
+    # Output format
+    Return a single code block.
+    ```
+
+- Multimodal Prompting
+  - t.b.d.  
