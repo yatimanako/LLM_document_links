@@ -72,4 +72,43 @@ This document introduces basic concepts, strategies, and best practices to get y
     ```
 
 - Video Generation Prompting
-  - t.b.d. 
+  - Include the follwing items.
+    - Subject: The object, person, animal, or scenery that you want in your video, such as cityscape, nature, vehicles, or puppies.
+    - Action: What the subject is doing (for example, walking, running, or turning their head).
+    - Style: Specify creative direction using specific film style keywords, such as sci-fi, horror film, film noir, or animated styles like cartoon.
+    - Camera positioning and motion: (Optional) Control the camera's location and movement using terms like aerial view, eye-level, top-down shot, dolly shot, or worms eye.
+    - Composition: (Optional) How the shot is framed, such as wide shot, close-up, single-shot or two-shot.
+    - Focus and lens effects: (Optional) Use terms like shallow focus, deep focus, soft focus, macro lens, and wide-angle lens to achieve specific visual effects.
+    - Ambiance: (Optional) How the color and light contribute to the scene, such as blue tones, night, or warm tones.
+   
+  - Examples
+    - Subject and Context
+      ```
+      An architectural rendering of a white concrete apartment building with flowing organic shapes, seamlessly blending with lush greenery and futuristic elements
+      ```
+
+    - Action
+      ```
+      A wide shot of a woman walking along the beach, looking content and relaxed towards the horizon at sunset.
+      ```
+
+    - Style
+      ```
+      Film noir style, man and woman walk on the street, mystery, cinematic, black and white.
+      ```
+
+    - Camera motion and composition
+      ```
+      A POV shot from a vintage car driving in the rain, Canada at night, cinematic.
+      ```
+
+    - Ambiance
+      ```
+      A close-up of a girl holding adorable golden retriever puppy in the park, sunlight.
+      ```
+
+    - Aspect ratios
+      ```
+      Widescreen (16:9)
+      Create a video with a tracking drone view of a man driving a red convertible car in Palm Springs, 1970s, warm sunlight, long shadows.
+      ```
