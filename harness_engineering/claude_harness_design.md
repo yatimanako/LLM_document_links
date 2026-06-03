@@ -10,7 +10,7 @@ However, the concept, design philosophy, and construction methods of a harness a
 
 ### 📌 Document Link
 
-[Configure your environment in Best practices for Claude Code](https://code.claude.com/docs/en/best-practices?utm_source=copilot.com#configure-your-environment)
+[https://code.claude.com/docs/en/best-practices#configure-your-environment](https://code.claude.com/docs/en/best-practices#configure-your-environment)
 
 ### 📝 Summary
 The document outlines how to build a robust, extensible harness that enables Claude to work effectively with codebase. It covers creating a clear **CLAUDE.md** to guide the model, setting proper **permissions**, and using **CLI tools** for efficient workflows. Also it describes connecting **MCP servers**, adding **hooks**, and defining **skills** to extend Claude’s capabilities. Advanced customization is supported through **custom subagents** and optional **plugins** that enhance automation and reasoning.
@@ -18,7 +18,15 @@ The document outlines how to build a robust, extensible harness that enables Cla
 Overall, the document provides a blueprint of Harness for configuring a powerful, modular development environment around Claude Code.
 
 ### 🔍 Key Takeaways
-- t.b.d.
+- CLAUDE.md
+  - Ask “Would removing this cause Claude to make mistakes?”. If not, cut it.
+  - Tune instructions by adding emphasis (e.g., “IMPORTANT” or “YOU MUST”) to improve adherence.
+- Permission
+  - There are three ways to reduce interruptions for permission requests by Claude: Auto mode, Permission Allowlists, and Sandboxing.
+- Hooks
+  - Claude can write hooks with prompts like “Write a hook that runs eslint after every file edit” or “Write a hook that blocks writes to the migrations folder.”
+- Subagents
+  - Tell Claude to use subagents explicitly: “Use a subagent to review this code for security issues.”
 
 ### 📚 Notes
 - t.b.d.
